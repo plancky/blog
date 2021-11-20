@@ -6,11 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Tags on Planck&#39;s Blog</title>
+    <title>Tags on Planck&#39;s Notes</title>
     <link>http://plancky.github.io/blog/tags/</link>
-    <description>Recent content in Tags on Planck&#39;s Blog</description>
+    <description>Recent content in Tags on Planck&#39;s Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>shashvat817@gmail.com (planck)</managingEditor>
+    <webMaster>shashvat817@gmail.com (planck)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
@@ -23,12 +25,12 @@
         <title>Computational Physics</title>
         <link>http://plancky.github.io/blog/tags/computational-physics/</link>
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
-        
+        <author>shashvat817@gmail.com (planck)</author>
         
         <guid>http://plancky.github.io/blog/tags/computational-physics/</guid>
         <description></description>
         
-        
+        <dc:creator>planck</dc:creator>
         
         
         
@@ -41,12 +43,12 @@
         <title>Computer Science</title>
         <link>http://plancky.github.io/blog/tags/computer-science/</link>
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
-        
+        <author>shashvat817@gmail.com (planck)</author>
         
         <guid>http://plancky.github.io/blog/tags/computer-science/</guid>
         <description></description>
         
-        
+        <dc:creator>planck</dc:creator>
         
         
         
@@ -59,12 +61,12 @@
         <title>Science</title>
         <link>http://plancky.github.io/blog/tags/science/</link>
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
-        
+        <author>shashvat817@gmail.com (planck)</author>
         
         <guid>http://plancky.github.io/blog/tags/science/</guid>
         <description></description>
         
-        
+        <dc:creator>planck</dc:creator>
         
         
         

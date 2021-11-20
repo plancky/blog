@@ -57,13 +57,13 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-myname = ""
-email = ""
-whoami = ""
+myname = "planck"
+email = "shashvat817@gmail.com"
+whoami = "planck"
 bioImageUrl = ""
 useGravatar = false
-location = ""
-organization = ""
+location = "Delhi, India"
+organization = "University of Delhi"
 link = ""
 
 # sidebar
@@ -158,18 +158,18 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-#  email = "mailto:maxplanck817@email.com"
+  email = "mailto:shashvat817@gmail.com"
 #  phone = ""
 #  facebook = "http://example.org/"
 #  twitter = "http://example.org/"
-  github = "https://github.com/plancky/plancky.github.io"
+  github = "https://github.com/plancky/blog"
 #  stack-overflow = ""
 #  instagram = ""
 #  google-plus = ""
 #  youtube = ""
   medium = ""
   tumblr = ""
-  linkedin = ""
+  linkedin = "https://www.linkedin.com/in/shashvat817/"
   pinterest = ""
   stack-exchange = ""
   telegram = ""
