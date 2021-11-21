@@ -80,7 +80,7 @@ $ {(18.625 \times 2^{3} )}\_{10}  = (149)\_{10}= (10010101)\_2 $
 
 Here the number $18.625$ is stored in memory as
 
-![Image](/docs/floating_bits_images/drawing.png)
+![Image](../img/drawing.png)
 
 | Binary | Internal Fixed point representation |
 |-------- | -------------------------- |
@@ -181,6 +181,8 @@ Therefore the unbiased exponent ranges between $1-1023 = -1022\leq \text{exponen
 (1.7976931348623157e+308, 2.2250738585072014e-308)
 ```  
 The interval between these two numbers gives us the **usable range** on the positive side of the number line. 
+![Image](../img/realmap.png)
+
 
 Each float value is at a certain **gap** from it's neighbouring values if we view the values on the real number line. That is what allows us to cover such a large range of values.
 
