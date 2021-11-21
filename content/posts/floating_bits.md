@@ -80,7 +80,7 @@ $ {(18.625 \times 2^{3} )}\_{10}  = (149)\_{10}= (10010101)\_2 $
 
 Here the number $18.625$ is stored in memory as
 
-![Image](/floating_bits_images/drawing.png)
+![Image](/docs/floating_bits_images/drawing.png)
 
 | Binary | Internal Fixed point representation |
 |-------- | -------------------------- |
