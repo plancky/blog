@@ -1,5 +1,5 @@
 ---
-title: Hurdles in computation requiring exact decimals
+title: "Hurdles in computation requiring exact decimals: Part-I floating-point representation"
 date: 2021-10-17
 description:  
 draft: false
@@ -11,24 +11,28 @@ libraries:
 enableTocContent: true
 tags:
 - Science
+- float
+- Number system 
 - Computer Science
 - Computational Physics
 categories:
 - Computer Science 
 ---
 
+{{< notice info >}}
+No pre-requisites required
+{{< /notice >}}
+
 ## Number System 
-What do Roman numerals, Tally marks, Decimal and Binary number systems have in common ? They are all used to describe Quantity or the _number of things_, each with its unique style motivated by a particular usecase.
-Tally Marks exist from the primitive ages and were probably made to keep track of the stock of apples left.
+What do Roman numerals, Tally marks, Decimal and Binary number systems have in common? They are all used to describe __Quantity__ or the __number of things__, each with its unique style motivated by a particular usecase.
+Tally Marks exist from the primitive ages and were probably made to keep track of the stock of apples left and Roman numerals were invented to write relatively large quantities probably to ledger cash, it would not be really fun writing hundred or even a thousand in tally marks.
 
-Roman numerals were invented to write relatively large quantities probably to ledger cash, it would be really fun writing hundred or even a thousand in tally marks.
+Decimal system is the one with which you grew up with, atleast I did, which came to be after humanity invented ```0``` which comes really handy while simplifying fractions, It is also called the Base 10 system because we have 10 Basic __states__ or __configurations__ or __symbols__ to work with, namely ```0,1,2,3,4,5,6,7,8,9```. 
+The decimal number system has three main attributes indices(place), base.
 
-Decimal system is the one with which you grew up with, atleast I did, which came to be after humanity invented ```0``` which comes really handy while simplifying fractions, It is also called the Base 10 system because we have 10 Basic states or configurations or symbols to work with, namely ```0,1,2,3,4,5,6,7,8,9```. 
-The decimal number system has three main attributes indices(place), base, power.
+> In the Decimal system, a number is represented by a list of digits from 0 to 9, where each digit represents the coefficient for a power of 10 determined by it's place. 
 
-> In the decimal system, a number is represented by a list of digits from 0 to 9, where each digit represents the coefficient for a power of 10 for it's place. 
-
-> Mathematically if N is a Real number, its decimal equivalent $$x_b x_{b-1} \cdots x_1 x_0 . x_{-1} \cdots x_{a+1} x_{a}$$ has the relation,
+> Mathematically, if N is any number, its decimal equivalent $$x_b x_{b-1} \cdots x_1 x_0 . x_{-1} \cdots x_{a+1} x_{a}$$ has the relation,
 > $$N = \sum_{i=a}^b{x_i 10^i}$$ 
 > where $x_i = {0,1,\dots 9}$
 
@@ -38,22 +42,23 @@ $$114.5 = 1.10^2 + 1.10^1 + 4. 10^0 + 5.10^{-1}$$
 Now, Binary number system. Consisting of only two symbols 0 and 1,
 > In the Binary system, a number is represented by 0 or 1, where each digit represents the coefficient for a power of 2 for it's place.
 
->Mathematically if N is a Real number, its binary equivalent $$x_b x_{b-1} \cdots x_1 x_0 . x_{-1} \cdots x_{a+1} x_{a}$$ has the relation,
+>Mathematically, if N is a any number, its binary equivalent $$x_b x_{b-1} \cdots x_1 x_0 . x_{-1} \cdots x_{a+1} x_{a}$$ has the relation,
 > $$ N = \sum_{i=a}^b{x_i 2^i}  $$ 
 > where $x_i = {0,1}$
 
 $$ (1001)_2 = 1.2^3 + 0. 2^2 + 0.2^1 + 1.2^0 = 9 $$
 $$ (1001.01)_2 = 1.2^3 + 0. 2^2 + 0.2^1 + 1.2^0 + 0.2^{-1} + 1.2^{-2} = 9.25 $$
  
-The Binary number system readily finds its way in the most uselful Binary device (No pun intended) humans ever created, _**the transistor**_ . The transistor can either be **ON** if it outputs current and **OFF** otherwise. Computers are built on these small devices and therfore to work with such a system binary seemed as the perfect choice until.... we came short on the abilities of our memory devices.
+The Binary number system readily finds its way in the most uselful Binary device (No pun intended) humans ever created, _**the transistor**_ . A transistor can either be **ON** (__if it outputs current__) or **OFF** otherwise. Computers are built on these small devices and therfore to work with such a binary system, the binary number system seemed as the perfect choice until.... we came short on the abilities of our memory devices.
 
-A bit alone can attain only two states (ON or OFF) and therefore it only represents two possible values based on it's state, namely ```0``` and ```1```, but an list of $n$ bits can collectively exist in $2^n$ unique combinations or states. This allows us to store $2^n$ different numbers in memory mapped directly from a unique combination of the list of stored bits.
+A bit alone can attain only two states (ON or OFF) and therefore it can only represent two possible values based on it's state, conventionally ```0``` and ```1```, but an list of $n$ bits can collectively exist in $2^n$ unique combinations or states. This allows us to store $2^n$ different numbers in memory, each mapped directly from a unique combination of the list of stored bits.
 
-The most fundamental unit of computer memory is a register, which stores the value of list of bits.
+{{< notice info >}}
+* Information is stored in computer memory as lists of bits of fixed length (8-bit, 64-bit), each list is known as a **register**, fundamentally storing values in variables comes down to filling these **registers**. 
 
-We will learn in the next bit about how limited memory forced people to look for new systems which build upon the traditional binary number system.
 
-> It is helpful to view number systems as a one-one linear mapping from the set of all possible states to the Real Number line. The idea being that if you have such a mapping at your disposal you can figure out the only unique real number corresponding to a given array of bits, which is what a computer needs to do in order to store numbers.
+* It is helpful to view number systems as a one-one linear mapping from the set of all possible states to the Real Number line. The idea being that if you have such a mapping at your disposal you can figure out the only unique real number corresponding to a given array of bits, which is what a computer needs to do in order to store numbers.
+{{< /notice >}}
 
 ## Fixed-point numbers
 In a fixed-point representation, we fix our imaginary decimal point somewhere in middle of our list of bits and store numbers accordingly.
@@ -70,10 +75,12 @@ Let's first look at the idea in base 10, given that we allocate last 3 places fo
 
 any place after the 3rd place after the decimal is dropped.
 
-For example, consider a 8-bit register where the last 4 bits are allotted to the value after the decimal point.
+For example, consider a 8-bit register where the last 3 bits are allotted to the value after the decimal point.
 $ {(18.625 \times 2^{3} )}\_{10}  = (149)\_{10}= (10010101)\_2 $
+
 Here the number $18.625$ is stored in memory as
- 
+
+![Image](/floating_bits_images/drawing.png)
 
 | Binary | Internal Fixed point representation |
 |-------- | -------------------------- |
@@ -84,10 +91,14 @@ Here the number $18.625$ is stored in memory as
 
 Although it is easier to perform arithemetic with fixed point numbers, there are numerous occassions when you would want to deal with numbers of very small magnitude in the order of $10^{-12}$ and to be able to multiply and divide them by numbers of relatively large magnitude in the order of $10^{12}$ ; Now, If you wish to use fixed-point representation you would require roughly 80+ bits which might not seem alot in the modern age but 30 years ago they were very expensive, this forced computer scientists to look for better ways of storing decimal numbers.
 
+{{< notice info >}}
+Negative fixed point numbers are generally stored here by alloting half of all possible states($2^n$) to negative numbers, they are obtained by taking the two's complement, that is, flipping all the bits and adding one to the obtained binary,
+{{< /notice >}}
+
 ## There is not enough memory!! 
-Information that you store anywhere takes up space, quite literally, made available to you by your storage device. Allocating 64-bit to a variable means that you are reserving $64$ bits for the value of that variable in the memory. You can represent $2^{64}$  or ```18,446,744,073,709,551,616``` numbers at maximum with 64 bits. If you decide to represent numbers using fixed-point representaion you will not be able to get a large range and high precision for your mapping, you have to trade one for another,
+Information that you store anywhere takes up space, quite literally, made available to you by your storage device. Allocating 64-bit to a variable means that you are reserving $64$ bits for the value of that variable in the memory. You can represent $2^{64}$  or ```18,446,744,073,709,551,616``` numbers at maximum with 64 bits. If you decide to represent numbers using fixed-point representaion you will not be able to get a large range and high precision both, you have to trade one for another,
 since one might have to deal with:-
-- Very large numbers like the speed of light 299,792,458
+- Very large numbers like the speed of light $2.99,792,458 \times 10^{8}$ in SI units
 
 - Very small numbers like the planck's constant  $6.62607004 \times 10^{-34}$
 
@@ -100,10 +111,11 @@ If your number system is a one-one maping from the set of all combinations/state
 
 If I gave you a million of your favourite fruits, will you mind if you lost 20 of them?
 
-Since a $1 \times 10^6$ fruits minus 20 or even a 200 is still a million fruits (roughly speaking) and you need not keep track of small differences when dealing with large numbers.
-Similarly, when dealing with small quantities, say 5.89g of fruits, every gram of fruit matters to you and so you can't probably afford to lose the count of even 0.01g.
+Since a $1 \times 10^6$ fruits minus 20 or even a 200 is still a million fruits, roughly speaking, you may not want to keep track of small differences when dealing with comparitively large numbers.
 
-To put it simply, error is best recognized when it is compared to the magnitude of the quantity in which error is being noticed. Such error is called **relative error**, reducing absolute error is always our priority but for good approximations we try to keep the relative error as low as possible.
+Similarly, when dealing with small quantities, say 5.89kg of fruits, every kilogram of fruit matters to you and so you can't probably afford to lose the count of even 0.1kg.
+
+To put it simply, error is best recognized when it is compared to the magnitude of the quantity in which error is being noticed. Such error is called **relative error**, reducing absolute error should always be our priority but for good approximations we try to keep the relative error as low as possible.
 
 On the same train of thought, notice that you must have more configurations in your number system reprensenting small real numbers than larger ones. This idea was at the core of all numerical work we did and led to the creation of several different **floating point** representations for binary,
 >so many infact that it became difficult for programmers to make design software with all these different floating point hardware units floating around. 
@@ -153,8 +165,13 @@ On the other hand when the value to be returned is larger than the largest possi
 
 ### The usable range and the machine epsilon
 
-Largest possible float64 value can be computed easily,
-E gets stored in 11bits and therefore has $2^{11}$ states out of which $(00\dots 0)_{2}$ and $(11\dots1)_2$ are reserved, therefore $E_{max} = 2046$ and $E_{min} = 1$, bias $E_b$ can be calculated as $2^{11-1}-1 = 1023$. Therefore the unbiased exponent exponent ranges between $1-1023 = -1022\leq \text{exponent} \leq 2046-1023 = 1023$
+Largest possible float64 value can be easily computed, 
+
+$E$ gets stored in 11bits and therefore has $2^{11}$ states out of which $(00\dots 0)\_{2}$ and $(11\dots1)\_2$ are reserved, therefore $E\_{max} = 2046$ and $E\_{min} = 1$, 
+
+The bias $E\_b$ can be calculated as $2^{11-1}-1 = 1023$.
+
+Therefore the unbiased exponent ranges between $1-1023 = -1022\leq \text{exponent} \leq 2046-1023 = 1023$
  
 ```Python
 >>> import numpy as np

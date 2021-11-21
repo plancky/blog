@@ -43,15 +43,14 @@
 
       
       <item>
-        <title>Hurdles in computation requiring exact decimals</title>
+        <title>Hurdles in computation requiring exact decimals: Part-I floating-point representation</title>
         <link>http://plancky.github.io/blog/posts/floating_bits/</link>
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
         <author>shashvat817@gmail.com (planck)</author>
         <atom:modified>Sun, 17 Oct 2021 00:00:00 +0000</atom:modified>
         <guid>http://plancky.github.io/blog/posts/floating_bits/</guid>
-        <description>Number System What do Roman numerals, Tally marks, Decimal and Binary number systems have in common ? They are all used to describe Quantity or the number of things, each with its unique style motivated by a particular usecase.
-Tally Marks exist from the primitive ages and were probably made to keep track of the stock of apples left.
-Roman numerals were invented to write relatively large quantities probably to ledger cash, it would be really fun writing hundred or even a thousand in tally marks.</description>
+        <description>No pre-requisites required  Number System What do Roman numerals, Tally marks, Decimal and Binary number systems have in common? They are all used to describe Quantity or the number of things, each with its unique style motivated by a particular usecase.
+Tally Marks exist from the primitive ages and were probably made to keep track of the stock of apples left and Roman numerals were invented to write relatively large quantities probably to ledger cash, it would not be really fun writing hundred or even a thousand in tally marks.</description>
         
         <dc:creator>planck</dc:creator>
         
@@ -61,6 +60,14 @@ Roman numerals were invented to write relatively large quantities probably to le
           
             
               <category>Science</category>
+            
+          
+            
+              <category>float</category>
+            
+          
+            
+              <category>Number system</category>
             
           
             

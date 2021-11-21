@@ -2,6 +2,7 @@ baseURL = "http://plancky.github.io/blog/"
 title = "Planck's Notes"
 theme = "zzo"
 publishDir = "./docs"
+staticDir = ["./static"] 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = false
