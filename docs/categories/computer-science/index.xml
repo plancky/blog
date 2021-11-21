@@ -22,7 +22,7 @@
 
       
       <item>
-        <title>Hurdles in computation requiring exact decimals: Part-I floating-point representation</title>
+        <title>Hurdles in computation requiring exact decimals : floating-point representation</title>
         <link>http://plancky.github.io/blog/posts/floating_bits/</link>
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
         <author>shashvat817@gmail.com (planck)</author>
@@ -34,7 +34,7 @@ Tally Marks exist from the primitive ages and were probably made to keep track o
         <dc:creator>planck</dc:creator>
         
         
-        
+        <media:content url="http://plancky.github.io/blog/floating_bits_images/realmap.svg" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

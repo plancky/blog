@@ -29,7 +29,7 @@ header:
     subtitle:
       - A shortlived escape from physics
     titleColor: 
-    titleShadow: false
+    titleShadow: true
     titleFontSize: 38
     subtitleColor: "#a2b9de" 
     subtitleCursive: true
