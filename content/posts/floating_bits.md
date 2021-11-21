@@ -1,13 +1,13 @@
 ---
 title: "Hurdles in computation requiring exact decimals: Part-I floating-point representation"
 date: 2021-10-17
-description:  
+description: What do Roman numerals, Tally marks, Decimal and Binary number systems have in common? They are all used to describe Quantity or the number of things, each with its unique style motivated by a particular usecase.
 draft: false
-hideToc: false
+hideToc: true
 enableToc: true
 math: true
 libraries:
-- mathjax
+- katex
 enableTocContent: true
 tags:
 - Science
