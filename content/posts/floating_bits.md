@@ -138,6 +138,7 @@ It's called the scientific notation and goes something like this,
 As we pointed out in our discussion of scientific notation for decimal numbers, the decimal point is no longer fixed but its position is determined by another integer called the **exponent**. Let's discuss more about floating point representation in binary by discussing the **IEEE 754** standard for floating point arithemetic followed while designing all modern computers to handle float numbers. 
 
 ### IEEE 754 
+In 1985, [Institute of Electrical and Electronics Engineers](https://www.ieee.org/) or IEEE came up with a set of standard protocols for storing and performing arithemetic operations involving the class of floating-point numbers, these standards stand by the name **IEEE 754** and was established to ease the burden on computer programmers.(since in the early days due to the various different number systems implemented by hardware manufacturers.)
 
 Analogous to the scientific notation,
 > Any IEEE 754 standard float gets stored in accordance with this notation, binary number B can be represented as,
