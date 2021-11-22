@@ -51,7 +51,7 @@ Now, the binary (meaning "two") number system is defined similarly but with a ba
 $$ (1001)_2 = 1.2^3 + 0. 2^2 + 0.2^1 + 1.2^0 = 9 $$
 $$ (1001.01)_2 = 1.2^3 + 0. 2^2 + 0.2^1 + 1.2^0 + 0.2^{-1} + 1.2^{-2} = 9.25 $$
  
-The Binary number system readily finds its way in the most uselful Binary device (No pun intended) humans ever created, _**the transistor**_ . A transistor can either be **ON** (__if it outputs current__) or **OFF** otherwise. Computers are built on these small devices and therfore to work with such a binary system, the binary number system seemed as the perfect choice until.... we came short on the abilities of our memory devices.
+The Binary number system readily finds its way in the most useful Binary device (No pun intended) humans ever created, _**the transistor**_ . A transistor can either be **ON** (__if it outputs current__) or **OFF** otherwise. Computers are built on these small devices and therfore to work with such a binary system, the binary number system seemed as the perfect choice until.... we came short on the abilities of our memory devices.
 
 A bit alone can attain only two states (ON or OFF) and therefore it can only represent two possible values based on it's state, conventionally ```0``` and ```1```, but an list of $n$ bits can collectively exist in $2^n$ unique combinations or states. This allows us to store $2^n$ different numbers in memory, each mapped directly from a unique combination of the list of stored bits.
 
@@ -138,7 +138,7 @@ It's called the scientific notation and goes something like this,
 As we pointed out in our discussion of scientific notation for decimal numbers, the decimal point is no longer fixed but its position is determined by another integer called the **exponent**. Let's discuss more about floating point representation in binary by discussing the **IEEE 754** standard for floating point arithemetic followed while designing all modern computers to handle float numbers. 
 
 ### IEEE 754 
-In 1985, __[Institute of Electrical and Electronics Engineers](https://www.ieee.org/)__ or IEEE came up with a set of standard protocols for storing and performing arithemetic operations involving the class of floating-point numbers, these standards stand by the name **IEEE 754** and was established to ease the burden on computer programmers.(since in the early days due to the various different number systems implemented by hardware manufacturers.)
+In 1985, __[Institute of Electrical and Electronics Engineers](https://www.ieee.org/)__ or IEEE came up with a set of standard protocols for storing and performing arithemetic operations involving the class of floating-point numbers, these standards stand by the name **IEEE 754** and was established to ease the burden on computer programmers.(since in the early days various different number systems were implemented by hardware manufacturers.)
 
 Analogous to the scientific notation,
 > Any IEEE 754 standard float gets stored in accordance with this notation, binary number B can be represented as,
