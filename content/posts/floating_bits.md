@@ -28,8 +28,8 @@ No pre-requisites required
 What do Roman numerals, Tally marks, Decimal and Binary number systems have in common? They are all used to describe __Quantity__ or the __number of things__, each with its unique style motivated by a particular usecase.
 Tally Marks exist from the primitive ages and were probably made to keep track of the stock of apples left and Roman numerals were invented to write relatively large quantities probably to ledger cash, it would not be really fun writing hundred or even a thousand in tally marks.
 
-Decimal system is the one with which you grew up with, atleast I did, which came to be after humanity invented ```0``` which comes really handy while simplifying fractions, It is also called the Base 10 system because we have 10 Basic __states__ or __configurations__ or __symbols__ to work with, namely ```0,1,2,3,4,5,6,7,8,9```. 
-The decimal number system has three main attributes indices(place), base.
+Decimal system is the one with which you grew up with, atleast I did, which came to be after humanity invented ```0``` which comes really handy while simplifying fractions, it is also called the Base 10 system because we have 10 Basic __states__ or __configurations__ or __symbols__ to work with, namely ```0,1,2,3,4,5,6,7,8,9```. 
+The decimal number system has two main attributes indices(place), base.
 
 > In the Decimal system, a number is represented by a list of digits from 0 to 9, where each digit represents the coefficient for a power of 10 determined by it's place. 
 
@@ -39,8 +39,9 @@ The decimal number system has three main attributes indices(place), base.
 
 look at the following examples,
 $$114.5 = 1.10^2 + 1.10^1 + 4. 10^0 + 5.10^{-1}$$
+$$11.64 = 1.10^1 + 1. 10^0 + 6.10^{-1} + 4.10^{-2}$$
 
-Now, Binary number system. Consisting of only two symbols 0 and 1,
+Now, the binary (meaning "two") number system is defined similarly but with a base of 2,
 > In the Binary system, a number is represented by 0 or 1, where each digit represents the coefficient for a power of 2 for it's place.
 
 >Mathematically, if N is a any number, its binary equivalent $$x_b x_{b-1} \cdots x_1 x_0 . x_{-1} \cdots x_{a+1} x_{a}$$ has the relation,
