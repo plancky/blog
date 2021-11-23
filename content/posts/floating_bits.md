@@ -38,8 +38,8 @@ The decimal number system has two main attributes indices(place), base.
 > where $x_i = {0,1,\dots 9}$
 
 look at the following examples,
-$$114.5 = 1.10^2 + 1.10^1 + 4. 10^0 + 5.10^{-1}$$
-$$11.64 = 1.10^1 + 1. 10^0 + 6.10^{-1} + 4.10^{-2}$$
+$$114.5 = 1\cdot10^2 + 1\cdot10^1 + 4\cdot 10^0 + 5\cdot10^{-1}$$
+$$11.64 = 1\cdot10^1 + 1\cdot 10^0 + 6\cdot10^{-1} + 4\cdot10^{-2}$$
 
 Now, the binary (meaning "two") number system is defined similarly but with a base of 2,
 > In the Binary system, a number is represented by 0 or 1, where each digit represents the coefficient for a power of 2 for it's place.
@@ -48,8 +48,8 @@ Now, the binary (meaning "two") number system is defined similarly but with a ba
 > $$ N = \sum_{i=a}^b{x_i 2^i}  $$ 
 > where $x_i = {0,1}$
 
-$$ (1001)_2 = 1.2^3 + 0. 2^2 + 0.2^1 + 1.2^0 = 9 $$
-$$ (1001.01)_2 = 1.2^3 + 0. 2^2 + 0.2^1 + 1.2^0 + 0.2^{-1} + 1.2^{-2} = 9.25 $$
+$$ (1001)_2 = 1\cdot2^3 + 0\cdot 2^2 + 0\cdot2^1 + 1\cdot2^0 = 9 $$
+$$ (1001.01)_2 = 1\cdot2^3 + 0\cdot 2^2 + 0\cdot2^1 + 1\cdot2^0 + 0\cdot2^{-1} + 1\cdot2^{-2} = 9.25 $$
  
 The Binary number system readily finds its way in the most useful Binary device (No pun intended) humans ever created, _**the transistor**_ . A transistor can either be **ON** (__if it outputs current__) or **OFF** otherwise. Computers are built on these small devices and therfore to work with such a binary system, the binary number system seemed as the perfect choice until.... we came short on the abilities of our memory devices.
 
