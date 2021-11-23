@@ -1350,8 +1350,8 @@
 <meta property="og:description" content="What do Roman numerals, Tally marks, Decimal and Binary number systems have in common? They are all used to describe Quantity or the number of things, each with its unique style motivated by a particular usecase. ">
 
   
-    <meta property="og:image" content="http://plancky.github.io/blog/floating_bits_images/realmap.svg">
-    <meta property="og:image:url" content="http://plancky.github.io/blog/floating_bits_images/realmap.svg">
+    <meta property="og:image" content="http://plancky.github.io/blog/floating_bits_images/realmap.png">
+    <meta property="og:image:url" content="http://plancky.github.io/blog/floating_bits_images/realmap.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="Planck&#39;s Notes">
     <meta property="twitter:title" content="Hurdles in computation requiring exact decimals : floating-point representation">
@@ -1827,7 +1827,7 @@ $$ (1001.01)_2 = 1.2^3 + 0. 2^2 + 0.2^1 + 1.2^0 + 0.2^{-1} + 1.2^{-2} = 9.25 $$<
 <p>For example, consider a 8-bit register where the last 3 bits are allotted to the value after the decimal point.<br />
 $ {(18.625 \times 2^{3} )}_{10}  = (149)_{10}= (10010101)_2 $</p>
 <p>Here the number $18.625$ is stored in memory as</p>
-<p><img src="../img/drawing.svg" alt="Image" /></p>
+<img src="../img/drawing.png" alt="drawing" width="400"/>
 <table>
 <thead>
 <tr>
@@ -2001,7 +2001,7 @@ On the other hand when the value to be returned is larger than the largest possi
 </code></pre></td></tr></table>
 </div>
 </div><p>The interval between these two numbers gives us the <strong>usable range</strong> on the positive side of the number line.<br />
-<img src="../img/realmap.svg" alt="Image" /></p>
+<img src="../img/realmap.png" alt="Image" /></p>
 <p>Each float value is at a certain <strong>gap</strong> from it&rsquo;s neighbouring values if we view the values on the real number line. That is what allows us to cover such a large range of values.</p>
 <p>If $N_1$ is a float then it&rsquo;s smallest increment $N_2$ can be produced by adding $(00\dots01)_2 = 2^{-52}$ to the mantissa.<br />
 $$ N_1 = (1.M_1) \times 2^{E-E_b}$$<br />
@@ -2050,7 +2050,7 @@ $$ \text{Machine epsilon} = \epsilon(1) = 2^{-52} = 2.220446049250313e-16  $$</p
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="rounding">Rounding</h3>
-<p>Real numbers which cannot be representated exactly by the IEEE 754 standard lies between two exactly  representable values and therefore ends up getting rounded while being stored, IEEE 754 recommends use of one of the following methods:-</p>
+<p>Real numbers which cannot be representated exactly by the IEEE 754 standard lie between two exactly representable values and therefore end up getting rounded while being stored, IEEE 754 recommends use of one of the following methods for rounding such numbers:-</p>
 <ul>
 <li>
 <p><strong>Round to nearest</strong> :<br />

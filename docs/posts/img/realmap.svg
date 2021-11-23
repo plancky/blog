@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.042298"
-     inkscape:cx="216.82858"
-     inkscape:cy="184.20836"
+     inkscape:zoom="1.474032"
+     inkscape:cx="116.34754"
+     inkscape:cy="57.664964"
      inkscape:window-width="1360"
      inkscape:window-height="739"
      inkscape:window-x="0"
@@ -38,6 +38,14 @@
      fit-margin-right="5" />
   <defs
      id="defs2">
+    <linearGradient
+       id="linearGradient21434"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ff2a2a;stop-opacity:1;"
+         offset="0"
+         id="stop21432" />
+    </linearGradient>
     <marker
        style="overflow:visible"
        id="Arrow1Sstart"
@@ -236,6 +244,21 @@
     </marker>
   </defs>
   <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background">
+    <rect
+       style="opacity:0.43303;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linejoin:round"
+       id="rect19387"
+       width="182.74182"
+       height="49.556442"
+       x="2.9027708"
+       y="11.277623"
+       inkscape:export-filename="/home/planck/opt/misc/new_blog_site/blog_site/content/posts/img/realmap.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+  <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
@@ -251,77 +274,70 @@
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1879"
-       cx="85.794449"
-       cy="57.564629"
-       rx="0.74184203"
-       ry="0.68546379" />
-    <ellipse
-       style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="ellipse1963"
-       cx="91.864479"
+       cx="78.386108"
        cy="57.564629"
        rx="0.74184203"
        ry="0.68546379" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1965"
-       cx="91.864479"
+       cx="84.456139"
        cy="57.564629"
        rx="0.74184203"
        ry="0.68546379" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1967"
-       cx="88.829887"
+       cx="81.421547"
        cy="57.564629"
        rx="0.74184203"
        ry="0.68546379" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1969"
-       cx="94.338638"
+       cx="86.930298"
        cy="57.564629"
        rx="0.74184203"
        ry="0.68546379" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1971"
-       cx="96.504219"
+       cx="89.095879"
        cy="57.564629"
        rx="0.74184203"
        ry="0.68546379" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1973"
-       cx="79.956451"
+       cx="72.548111"
        cy="57.564629"
        rx="0.74184203"
        ry="0.68546379" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1975"
-       cx="71.937149"
+       cx="64.528809"
        cy="57.564629"
        rx="0.74184203"
        ry="0.68546379" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1979"
-       cx="63.844414"
+       cx="56.436073"
        cy="57.564629"
        rx="0.74184203"
        ry="0.68546379" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1983"
-       cx="55.119934"
+       cx="47.711594"
        cy="57.564629"
        rx="0.74184203"
        ry="0.68546379" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2065"
-       cx="-123.73229"
+       cx="-130.08228"
        cy="-57.559978"
        rx="0.74184203"
        ry="0.68546379"
@@ -329,7 +345,7 @@
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2067"
-       cx="-117.66234"
+       cx="-124.01234"
        cy="-57.559978"
        rx="0.74184203"
        ry="0.68546379"
@@ -337,7 +353,7 @@
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2069"
-       cx="-117.66234"
+       cx="-124.01234"
        cy="-57.559978"
        rx="0.74184203"
        ry="0.68546379"
@@ -345,7 +361,7 @@
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2071"
-       cx="-120.69692"
+       cx="-127.0469"
        cy="-57.559978"
        rx="0.74184203"
        ry="0.68546379"
@@ -353,7 +369,7 @@
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2073"
-       cx="-115.18825"
+       cx="-121.53823"
        cy="-57.559978"
        rx="0.74184203"
        ry="0.68546379"
@@ -361,15 +377,23 @@
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2075"
-       cx="-113.0227"
+       cx="-119.37268"
        cy="-57.559978"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse2075-2"
+       cx="-91.882263"
+       cy="-57.740555"
        rx="0.74184203"
        ry="0.68546379"
        transform="scale(-1)" />
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2077"
-       cx="-129.57021"
+       cx="-135.92012"
        cy="-57.559978"
        rx="0.74184203"
        ry="0.68546379"
@@ -377,7 +401,7 @@
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2079"
-       cx="-137.5894"
+       cx="-143.93932"
        cy="-57.559978"
        rx="0.74184203"
        ry="0.68546379"
@@ -385,7 +409,7 @@
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2081"
-       cx="-145.68211"
+       cx="-152.03203"
        cy="-57.559978"
        rx="0.74184203"
        ry="0.68546379"
@@ -393,7 +417,7 @@
     <ellipse
        style="fill:#ff2a2a;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse2083"
-       cx="-154.40662"
+       cx="-160.75653"
        cy="-57.559978"
        rx="0.74184203"
        ry="0.68546379"
@@ -401,135 +425,135 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7254px;line-height:0.2;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       x="76.356674"
-       y="-38.018005"
+       x="75.685822"
+       y="-33.944008"
        id="text7165"
-       transform="matrix(0,0.60206151,-1.6609599,0,0,0)"><tspan
+       transform="matrix(0,0.6020615,-1.6609599,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan7163"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7254px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-         x="76.356674"
-         y="-38.018005">{</tspan></text>
+         x="75.685822"
+         y="-33.944008">{</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.797px;line-height:0.2;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       x="76.540543"
-       y="-73.279686"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.0243px;line-height:0.2;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       x="77.12442"
+       y="-76.226822"
        id="text27759"
-       transform="matrix(0,0.60061519,-1.6649596,0,0,0)"><tspan
+       transform="matrix(0,0.59606819,-1.6776604,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan27757"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.797px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-         x="76.540543"
-         y="-73.279686">{</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.0243px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+         x="77.12442"
+         y="-76.226822">{</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5006px;line-height:0.2;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       x="32.532555"
-       y="-141.20828"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.8803px;line-height:0.2;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       x="43.93058"
+       y="-99.387375"
        id="text27763"
-       transform="matrix(0,1.4316559,-0.69849187,0,0,0)"><tspan
+       transform="matrix(0,1.060205,-0.94321379,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan27761"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5006px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-         x="32.532555"
-         y="-141.20828">{</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.8803px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+         x="43.93058"
+         y="-99.387375">{</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5006px;line-height:0.2;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       x="32.532555"
-       y="-152.57204"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.3391px;line-height:0.2;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       x="42.522079"
+       y="-117.95527"
        id="text27771"
-       transform="matrix(0,1.4316559,-0.69849187,0,0,0)"><tspan
+       transform="matrix(0,1.0953233,-0.91297247,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan27769"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5006px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-         x="32.532555"
-         y="-152.57204">{</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.3391px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+         x="42.522079"
+         y="-117.95527">{</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.43958px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
-       x="74.797104"
-       y="38.047344"
+       style="font-size:3.08808px;line-height:1.25;font-family:'TeX Gyre Adventor';text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'TeX Gyre Adventor Bold';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="70.316566"
+       y="38.069508"
        id="text31429"><tspan
          sodipodi:role="line"
          id="tspan31427"
-         style="font-size:3.43958px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="74.797104"
-         y="38.047344" /><tspan
+         style="font-size:3.08808px;text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'TeX Gyre Adventor Bold';font-family:'TeX Gyre Adventor';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="70.316566"
+         y="38.069508" /><tspan
          sodipodi:role="line"
-         style="font-size:3.43958px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         style="font-size:3.08808px;text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'TeX Gyre Adventor Bold';font-family:'TeX Gyre Adventor';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan31431"
-         x="74.797104"
-         y="42.346821">usable range</tspan><tspan
+         x="70.316566"
+         y="41.929607">usable range</tspan><tspan
          sodipodi:role="line"
-         style="font-size:3.43958px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="74.797104"
-         y="46.646294"
-         id="tspan35327">normal values</tspan></text>
+         style="font-size:3.08808px;text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'TeX Gyre Adventor Bold';font-family:'TeX Gyre Adventor';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="70.316566"
+         y="45.789707"
+         id="tspan35327">(normal values)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.43958px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
-       x="136.18034"
-       y="38.047344"
-       id="text47073"><tspan
-         sodipodi:role="line"
-         id="tspan47067"
-         style="font-size:3.43958px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="136.18034"
-         y="38.047344" /><tspan
-         sodipodi:role="line"
-         style="font-size:3.43958px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         id="tspan47069"
-         x="136.18034"
-         y="42.346821">usable range</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:3.43958px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="136.18034"
-         y="46.646294"
-         id="tspan47071">normal values</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:2.46482px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
-       x="104.78023"
-       y="40.052647"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.04051px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="104.12543"
+       y="38.182919"
        id="text47081"><tspan
          sodipodi:role="line"
          id="tspan47075"
-         style="font-size:2.46482px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="104.78023"
-         y="40.052647" /><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.04051px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="104.12543"
+         y="38.182919" /><tspan
          sodipodi:role="line"
-         style="font-size:2.46482px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.04051px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
          id="tspan47077"
-         x="104.78023"
-         y="43.133671">underflow range</tspan><tspan
+         x="104.12543"
+         y="42.105232">underflow range</tspan><tspan
          sodipodi:role="line"
-         style="font-size:2.46482px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="104.78023"
-         y="46.214695"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.04051px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="104.12543"
+         y="46.027542"
          id="tspan47079">subnormal values</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.46482px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
-       x="38.226101"
-       y="37.581512"
+       style="font-size:3.03748px;line-height:1.25;font-family:'TeX Gyre Adventor';text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'TeX Gyre Adventor Bold';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="34.301819"
+       y="38.783321"
        id="text47081-7"><tspan
          sodipodi:role="line"
          id="tspan47075-5"
-         style="font-size:2.46482px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="38.226101"
-         y="37.581512" /><tspan
+         style="font-size:3.03748px;text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'TeX Gyre Adventor Bold';font-family:'TeX Gyre Adventor';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="34.301819"
+         y="38.783321" /><tspan
          sodipodi:role="line"
-         style="font-size:2.46482px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         style="font-size:3.03748px;text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'TeX Gyre Adventor Bold';font-family:'TeX Gyre Adventor';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan47077-3"
-         x="38.226101"
-         y="40.662537">overflow range</tspan><tspan
+         x="34.301819"
+         y="42.58017">overflow range</tspan><tspan
          sodipodi:role="line"
-         style="font-size:2.46482px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="38.226101"
-         y="43.743561"
-         id="tspan47079-5">-inf or nan</tspan></text>
+         style="font-size:3.03748px;text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'TeX Gyre Adventor Bold';font-family:'TeX Gyre Adventor';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="34.301819"
+         y="46.377022"
+         id="tspan47079-5">(-inf or nan)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.03748px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="174.92122"
+       y="38.354511"
+       id="text47081-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan47075-5-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.03748px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="174.92122"
+         y="38.354511" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.03748px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan47077-3-7"
+         x="174.92122"
+         y="42.15136">overflow range</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.03748px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="174.92122"
+         y="45.948212"
+         id="tspan47079-5-5">(-inf or nan)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.43958px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
@@ -546,30 +570,10 @@
          x="104.56669"
          y="66.169235"
          id="tspan47079-5-9">0</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:2.46482px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
-       x="171.41327"
-       y="38.816891"
-       id="text47081-7-6"><tspan
-         sodipodi:role="line"
-         id="tspan47075-5-2"
-         style="font-size:2.46482px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="171.41327"
-         y="38.816891" /><tspan
-         sodipodi:role="line"
-         style="font-size:2.46482px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         id="tspan47077-3-9"
-         x="171.41327"
-         y="41.897915">overflow range</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:2.46482px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="171.41327"
-         y="44.978939"
-         id="tspan51941">inf or nan</tspan></text>
     <g
        id="g48940"
-       transform="translate(-2.1176192,13.724983)">
+       transform="matrix(0.7980903,0,0,1,36.158682,13.724983)"
+       style="stroke-width:1.11937">
       <path
          id="path48936"
          style="font-size:25.8129px;line-height:0.2;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0"
@@ -577,11 +581,217 @@
     </g>
     <g
        id="g48940-3"
-       transform="translate(-135.78201,13.689126)">
+       transform="matrix(0.74980967,0,0,1,-96.269341,13.689126)"
+       style="stroke-width:1.15485">
       <path
          id="path48936-6"
          style="font-size:25.8129px;line-height:0.2;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral;stroke-width:0"
          d="m 173.76926,34.006007 c -0.77173,1.183285 -1.65373,1.501201 -4.18942,1.501201 h -6.5045 c -2.05794,0 -3.56461,0.282188 -4.22609,0.776698 -0.6615,0.494505 -0.88205,0.95405 -0.91881,2.137336 h 0.40411 c 0.66149,-1.218608 1.76394,-1.607138 4.52012,-1.607138 h 6.1738 c 3.05016,0 4.00586,-0.335791 4.7041,-1.660363 0.73498,1.324572 1.69011,1.660363 4.74028,1.660363 h 6.1743 c 2.75618,0 3.85866,0.38853 4.52013,1.607138 h 0.40411 c -0.0367,-1.165625 -0.25732,-1.62517 -0.9188,-2.137336 -0.66148,-0.512171 -2.09472,-0.776698 -4.18941,-0.776698 h -6.5412 c -2.57243,0 -3.41774,-0.317916 -4.15272,-1.501201 z" />
     </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 162.27801,54.76 c 0,5.992346 0,5.992346 0,5.992346"
+       id="path23117" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.189594,54.76 c 0,5.992346 0,5.992346 0,5.992346"
+       id="path23119" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 90.310947,54.76 c 0,5.992346 0,5.992346 0,5.992346"
+       id="path23121" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 118.3569,54.76 c 0,5.992346 0,5.992346 0,5.992346"
+       id="path23123" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.08808px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="140.69559"
+       y="38.069508"
+       id="text62025"><tspan
+         sodipodi:role="line"
+         id="tspan62019"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.08808px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.69559"
+         y="38.069508" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.08808px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan62021"
+         x="140.69559"
+         y="41.929607">usable range</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.08808px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.69559"
+         y="45.789707"
+         id="tspan62023">(normal values)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="87.886719"
+       y="60.413269"
+       id="text75997"><tspan
+         sodipodi:role="line"
+         id="tspan75993"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="87.886719"
+         y="60.413269" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="87.886719"
+         y="64.712746"
+         id="tspan75995">-2.2214e-308</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="119.79928"
+       y="60.236961"
+       id="text91577"><tspan
+         sodipodi:role="line"
+         id="tspan91573"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="119.79928"
+         y="60.236961" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="119.79928"
+         y="64.536438"
+         id="tspan91575">2.2214e-308</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="161.54231"
+       y="59.840008"
+       id="text91577-1"><tspan
+         sodipodi:role="line"
+         id="tspan91573-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="161.54231"
+         y="59.840008" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="161.54231"
+         y="64.139481"
+         id="tspan91575-9">1.797e+308</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="46.713531"
+       y="59.840008"
+       id="text99377"><tspan
+         sodipodi:role="line"
+         id="tspan99373"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="46.713531"
+         y="59.840008" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.43958px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="46.713531"
+         y="64.139481"
+         id="tspan99375">-1.797e+308</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="18.427763"
+       y="57.072617"
+       id="text99377-0"><tspan
+         sodipodi:role="line"
+         id="tspan99373-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="18.427763"
+         y="57.072617" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="18.427763"
+         y="63.687202"
+         id="tspan99375-8">-∞</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="188.53836"
+       y="57.393093"
+       id="text99377-0-9"><tspan
+         sodipodi:role="line"
+         id="tspan99373-6-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="188.53836"
+         y="57.393093" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="188.53836"
+         y="64.007675"
+         id="tspan99375-8-6">∞</tspan></text>
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse99535"
+       cx="-93.469765"
+       cy="-57.740555"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse99537"
+       cx="-95.057266"
+       cy="-57.740555"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse99539"
+       cx="-96.644768"
+       cy="-57.740555"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse99541"
+       cx="-98.232269"
+       cy="-57.740555"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse99787"
+       cx="-110.40308"
+       cy="-57.740555"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse99789"
+       cx="-111.99059"
+       cy="-57.740555"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse99791"
+       cx="-113.57808"
+       cy="-57.740555"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse99793"
+       cx="-115.16558"
+       cy="-57.740555"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
+    <ellipse
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.764999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse99795"
+       cx="-116.75309"
+       cy="-57.740555"
+       rx="0.74184203"
+       ry="0.68546379"
+       transform="scale(-1)" />
   </g>
 </svg>

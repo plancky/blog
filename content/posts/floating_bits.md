@@ -3,7 +3,7 @@ title: "Hurdles in computation requiring exact decimals : floating-point represe
 date: 2021-10-17
 description: "What do Roman numerals, Tally marks, Decimal and Binary number systems have in common? They are all used to describe Quantity or the number of things, each with its unique style motivated by a particular usecase. "
 draft: false
-meta_image: floating_bits_images/realmap.svg
+meta_image: floating_bits_images/realmap.png
 hideToc: true
 enableToc: false
 math: true
@@ -82,8 +82,7 @@ $ {(18.625 \times 2^{3} )}\_{10}  = (149)\_{10}= (10010101)\_2 $
 
 Here the number $18.625$ is stored in memory as
 
-![Image](../img/drawing.svg)
-
+<img src="../img/drawing.png" alt="drawing" width="400"/>
 
 | Binary    | Internal Fixed point representation |
 |:---------:| :----------------------------------- |
@@ -186,7 +185,7 @@ Therefore the unbiased exponent ranges between $1-1023 = -1022\leq \text{exponen
 (1.7976931348623157e+308, 2.2250738585072014e-308)
 ```  
 The interval between these two numbers gives us the **usable range** on the positive side of the number line. 
-![Image](../img/realmap.svg)
+![Image](../img/realmap.png)
 
 
 Each float value is at a certain **gap** from it's neighbouring values if we view the values on the real number line. That is what allows us to cover such a large range of values.
@@ -220,7 +219,7 @@ sys.float_info(max=1.7976931348623157e+308, max_exp=1024, max_10_exp=308, min=2.
 ```
 ### Rounding 
 
-Real numbers which cannot be representated exactly by the IEEE 754 standard lies between two exactly  representable values and therefore ends up getting rounded while being stored, IEEE 754 recommends use of one of the following methods:-
+Real numbers which cannot be representated exactly by the IEEE 754 standard lie between two exactly representable values and therefore end up getting rounded while being stored, IEEE 754 recommends use of one of the following methods for rounding such numbers:-
 - **Round to nearest** :
     The system chooses the nearer of the two possible neighbourhood values. If the exact value answer is exactly halfway between the two, the system chooses to store the one where the least significant bit of mantissa is zero. This behavior (round-to-even) prevents various undesirable effects.
 
