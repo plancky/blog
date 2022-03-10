@@ -53,7 +53,7 @@ $$ (1001.01)_2 = 1\cdot2^3 + 0\cdot 2^2 + 0\cdot2^1 + 1\cdot2^0 + 0\cdot2^{-1} +
  
 The Binary number system readily finds its way in the most useful Binary device (No pun intended) humans ever created, _**the transistor**_ . A transistor can either be **ON** (__if it outputs current__) or **OFF** otherwise. Computers are built on these small devices and therfore to work with such a binary system, the binary number system seemed as the perfect choice until.... we came short on the abilities of our memory devices.
 
-A bit alone can attain only two states (ON or OFF) and therefore it can only represent two possible values based on it's state, conventionally ```0``` and ```1```, but an list of $n$ bits can collectively exist in $2^n$ unique combinations or states. This allows us to store $2^n$ different numbers in memory, each mapped directly from a unique combination of the list of stored bits.
+A bit alone can attain only two states (ON or OFF) and therefore it can only represent two possible values based on its state, conventionally ```0``` and ```1```, but a list of $n$ bits can collectively exist in $2^n$ unique combinations or states. This allows us to store $2^n$ different numbers in memory, each mapped directly from a unique combination of the list of stored bits.
 
 {{< notice info >}}
 * Information is stored in computer memory as lists of bits of fixed length (8-bit, 64-bit), each list is known as a **register**, fundamentally storing values in variables comes down to filling these **registers**. 
