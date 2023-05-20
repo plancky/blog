@@ -1675,7 +1675,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;May 20, 2023 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;4&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;5&nbsp;min read </span>
   
   <span class="single__info">
     
@@ -1722,23 +1722,29 @@
 
       <p>You are at your local cafe waiting for your possible soul-mate when suddenly <em>buzz buzz</em>, the phone vibrates, &ldquo;I will be there soon! got stuck in traffic :(&rdquo; the text reads. You unsurprisingly look at the wrist watch, it is 17mins past 6pm, the decided time, <em>sigh&hellip;.</em> you sit back in your chair as you recall your prior dates,</p>
 <blockquote>
-<p>&ldquo;KJ was 10mins late, Astra 30, Skye 15, Reyna 20, and yeah how could I forget Sage who was 1 hour late.&rdquo; you said to yourself.</p>
+<p>&ldquo;KJ was 10mins late, Sarah 30, Linda 15, Anna 20, and yeah how could I forget Ella who was 1 hour late.&rdquo; you said to yourself.</p>
 </blockquote>
-<p>You decide that this time you aren&rsquo;t going to wait any longer than 25mins this time around, so intuitively, you calculate that the chance that you will leave alone just from your prior experiences is<br />
-$$\text{No. of dates who came past 25mins}\over\text{Total No. of dates that came late}$$<br />
+<p>You decide that you aren&rsquo;t going to wait any longer than 25mins this time around, so intuitively, you calculate that the chance that you will leave alone just from your prior experiences is<br />
+$$\text{No. of dates who came past 25mins}\over\text{Total no. of dates that came late}$$<br />
 which is $2/5$, or is it?</p>
 <blockquote>
 <p>The above example of probability in daily-life shows that we all have some notion of probability, The aim of this write-up is to formalise it mathematically by introducing necessary vocabulary, axioms and theorems.</p>
 </blockquote>
 <p>Uncertainity in determining the outcome of any process, termed as <strong>experiment</strong>, motivates us to analyse the experiment quantitatively by repeating the experiment over and over again to gather the list of all possible outcomes and determine numbers, called <strong>probabilities</strong>, for one outcome or a set of outcomes that tells us the chance, if the experiment was repeated in a similar setting, of that thing to appear again.</p>
 <h2 id="vocabulary">Vocabulary</h2>
-<p>We call a single performance of an experiment a <strong>trial</strong> and each possible result an <strong>outcome</strong>.</p>
-<p>The <strong>sample space</strong> $S$ of the experiment is then the set of all possible outcomes of an individual trial.</p>
-<p>Most often, one is not interested in individual outcomes but in whether an outcome belongs to a given subset A (say) of the sample space S; Any <strong>event</strong> $A$ is a subset of the sample space $S$. $A \subseteq S$</p>
+<p>Let us break the above example down and build a common vocabulary to work with,</p>
+<p>We call a single performance of an experiment a <strong>trial</strong> and each possible result an <strong>outcome</strong>. Comparing with the above example <strong>every date is a trial</strong>, no punn intended and all the delays in arrival  &ldquo;KJ was 10mins late, Astra 30, Skye 15 &hellip;&hellip;..&rdquo; each one of these are <strong>outcomes</strong>.</p>
+<p>The set ${10,30,15,20,60}$ is then called the sample space of the experiment. Thus, the <strong>sample space</strong> $S$ of the experiment is then the set of all possible outcomes of an individual trial.</p>
+<p>Most often, one is not interested in individual outcomes but in whether an outcome fits a certain description, say your date being late more than 25mins ${25,30,60}$; or more mathematically, belongs to a given subset A of the sample space S; Any <strong>event</strong> $A$ is a subset of the sample space $S$. $A \subseteq S$</p>
 <h2 id="axioms-and-theorems">Axioms and Theorems</h2>
 <ol>
 <li>More quantitatively, if an experiment has a total of $n_S$ outcomes in the sample space S, and $n_A$ of these outcomes correspond to the event $A$, then the probability that event $A$ will occur is $$P(A) = {n_A \over n_S}$$$0 \leq P(A) \leq 1$, for any event $A$ in $S$. $P(S)=1$ <img src="../img/probability/two_event_venn_1.png" alt="drawing" width="1000"/></li>
-<li>If A and B are two events in S then,$$ P(A\cup B) = P(A) + P(B) - P(A \cap B)$$ if $A$ and $B$ are <strong>mutually exclusive</strong>, $A \cap B = \phi \implies P(A\cup B) = P(A) + P(B)$. When the probabilities are combined to calculate the probability for the union of the $n$ general events, the result, which may be proved by induction upon $n$, is $$P\left(\bigcup_i^nA_i \right) = \sum_i^nP(A_i) - \sum_{i\neq j}P(A_i \cap A_j) + \sum_{i\neq j\neq k} P(A_i\cap A_j\cap A_k) -\dots+(-1)^{n+1}P\left(\bigcap_i A_i\right)$$</li>
+<li>If A and B are two events in S then,$$ P(A\cup B) = P(A) + P(B) - P(A \cap B)$$ if $A$ and $B$ are <strong>mutually exclusive</strong>, $A \cap B = \phi \implies P(A\cup B) = P(A) + P(B)$.</li>
+</ol>
+<blockquote>
+<p>In the general case, When the probabilities are combined to calculate the probability for the union of the $n$ general events, the result, which may be proved by induction upon $n$, is $$P\left(\bigcup_i^nA_i \right) = \sum_i^nP(A_i) - \sum_{i,j}P(A_i \cap A_j) + \sum_{i,j,k} P(A_i\cap A_j\cap A_k) -\dots+(-1)^{n+1}P\left(\bigcap_i A_i\right)$$</p>
+</blockquote>
+<ol start="3">
 <li><strong>Complement Law:</strong> We define complement $\bar{A}$ of an event $A$ in $S$, st $\bar{A} \cup A = S$ and $\bar{A}\cap A = \phi$ $$P(A) = 1 - P(\bar{A})$$</li>
 <li>$P(A \cap B)$ where $A$ (say) is the union of a set of $n$ <strong>mutually exclusive events</strong> $A_i$,$$\begin{aligned}A \cap B &amp;= \bigcup_{i} A_i \cap B \\P(A \cap B) &amp;=\sum_{i} P(A_i \cap B)\end{aligned}$$<br />
 In the case where $A_i$ exhaust all possible outcomes, $A = S$</li>
@@ -1752,7 +1758,9 @@ In the case where $A_i$ exhaust all possible outcomes, $A = S$</li>
 </blockquote>
 <p>$$\begin{aligned}P(A \cap B) &amp;= P(A)P(B|A) \\ &amp;= P(B)P(A|B) \\[0.5cm]P(A|B) &amp;= {P(A\cap B)\over P(B)} \\ P(B|A) &amp;= {P(A\cap B)\over P(A)}\end{aligned}$$</p>
 <p>In terms of Venn diagrams, we may think of $P(B|A)$ as the probability of $B$ in the reduced sample space defined by $A$; Introducing the condition of A occuring collapses the sample space to $A$, we then look for outcomes within $A$ that also belong to $B$ (that is $A \cap B$).<br />
-Thus, if two events $A$ and $B$ are mutually exclusive then $$P(A|B)= 0 = P(B|A)$$</p>
+Thus, if two events $A$ and $B$ are mutually exclusive then $$P(A|B)= 0 = P(B|A)$$<br />
+Also, if the occurence of one event, say A, does not affect the probability of occurence of the other, B, then the events are called <strong>independent events</strong>,<br />
+$$P(B/A) = P(B) \implies P(A\cap B) = P(A)P(B)$$</p>
 <h2 id="summary">Summary</h2>
 <p>Let us summarise this discussion with the example that we started with. Let $E$ be the event that $\text{You leave alone}$ , we calculated $P(E) = 1/2$, the probability of you leaving alone,  BUT we forgot to take into account one essential piece of information that should affect this probability,</p>
 <blockquote>
