@@ -1,46 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>http://plancky.github.io/blog/</loc>
-    <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/categories/</loc>
-    <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://plancky.github.io/blog/tags/computer-science/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://plancky.github.io/blog/tags/conditional-probability/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://plancky.github.io/blog/posts/fundamental_probability/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://plancky.github.io/blog/tags/mathematics/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://plancky.github.io/blog/categories/mathematics/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://plancky.github.io/blog/posts/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://plancky.github.io/blog/tags/probability-theory/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://plancky.github.io/blog/tags/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/tags/computational-physics/</loc>
     <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://plancky.github.io/blog/tags/computer-science/</loc>
-    <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/categories/computer-science/</loc>
     <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/tags/float/</loc>
     <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/posts/floating_bits/</loc>
     <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/tags/number-system/</loc>
     <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://plancky.github.io/blog/posts/</loc>
-    <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/tags/science/</loc>
     <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://plancky.github.io/blog/tags/</loc>
-    <lastmod>2021-10-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/about/</loc>
     <lastmod>2021-04-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>http://plancky.github.io/blog/series/</loc>
   </url>
+  
 </urlset>

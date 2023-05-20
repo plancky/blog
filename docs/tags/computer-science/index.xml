@@ -13,13 +13,56 @@
     <language>en</language>
     <managingEditor>shashvat817@gmail.com (planck)</managingEditor>
     <webMaster>shashvat817@gmail.com (planck)</webMaster>
-    <copyright>©2022, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <copyright>©2023, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
         <atom:link href="http://plancky.github.io/blog/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Fundamentals of Probability Theory</title>
+        <link>http://plancky.github.io/blog/posts/fundamental_probability/</link>
+        <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+        <author>shashvat817@gmail.com (planck)</author>
+        <atom:modified>Sat, 20 May 2023 00:00:00 +0000</atom:modified>
+        <guid>http://plancky.github.io/blog/posts/fundamental_probability/</guid>
+        <description>You are at your local cafe waiting for your possible soul-mate when suddenly buzz buzz, the phone vibrates, &amp;ldquo;I will be there soon! got stuck in traffic :(&amp;rdquo; the text reads. You unsurprisingly look at the wrist watch, it is 17mins past 6pm, the decided time, sigh&amp;hellip;. you sit back in your chair as you recall your prior dates,
+ &amp;ldquo;KJ was 10mins late, Astra 30, Skye 15, Reyna 20, and yeah how could I forget Sage who was 1 hour late.</description>
+        
+        <dc:creator>planck</dc:creator>
+        
+        
+        <media:content url="http://plancky.github.io/blog/fundamental_probability_images/realmap.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Probability Theory</category>
+            
+          
+            
+              <category>Conditional probability</category>
+            
+          
+            
+              <category>Mathematics</category>
+            
+          
+            
+              <category>Computer Science</category>
+            
+          
+        
+        
+          
+            
+              <category>Mathematics</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Hurdles in computation requiring exact decimals : floating-point representation</title>
